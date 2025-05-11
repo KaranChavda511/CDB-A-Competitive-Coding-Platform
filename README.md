@@ -2,7 +2,7 @@ Here’s the complete and well-structured `README.md` file for your **Code Debug
 
 ---
 
-```markdown
+
 # 🧠 Code Debugging Battle (CDB)
 
 **Code Debugging Battle (CDB)** is a real-time competitive programming platform where users can participate in live debugging contests, improve their coding skills, and climb the leaderboard. It features secure user authentication, interactive battle modes, real-time code evaluation, and performance insights.
@@ -103,7 +103,6 @@ npm run dev
 ---
 
 
----
 
 
 
