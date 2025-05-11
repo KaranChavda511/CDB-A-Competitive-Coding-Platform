@@ -61,35 +61,30 @@ Here’s the complete and well-structured `README.md` file for your **Code Debug
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/KaranChavda511/CDB-A-Competitive-Coding-Platform.git
-cd cdb-backend
-````
+Follow these steps to set up the project on your local machine:
 
-### 2. Install Dependencies
+1. Clone the repository:
+   ```
+   git clone https://github.com/KaranChavda511/CDB-A-Competitive-Coding-Platform.git
+   cd cdb-backend-work
+   ```
 
-```bash
-npm install
-```
+2. Set up the backend:
+   - Navigate to the `backend` folder.
+   - Install dependencies: `npm install`
+   - Set up environment variables: Create a `.env` file based on `.env.example.js` file.
+   - Start the backend server: `npm run dev`
 
-### 3. Create `.env` File
+3. Set up the frontend:
+   - Navigate to the client folder: `cd cdb-front-work`
+   - Install dependencies: `npm install`
+   - Set up environment variables: Create a `.env` file based on `.env.example.js` file.
+   - Start the client development server: `npm run dev`
 
-```env
-PORT=2001
-MONGO_URI= your_URI
-JWT_SECRET=your_secret_key
-FRONTEND_URL=http://localhost:5173/
-LOG_FILE_PATH=logs/app.log
-```
+4. Access the application:
+   - Open your browser and visit: `http://localhost:5173`
 
-### 4. Run the Server
-
-```bash
-npm run dev
-```
-
-
+---
 
 ---
 
